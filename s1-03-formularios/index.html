@@ -28,7 +28,7 @@
         <button>QUERO SER PROGRAMADOR(A)</button>
     </header>
 
-    <!-- LINHA    -->
+    <!-- LINHA  -->
     <hr>
 
     <main>
@@ -40,33 +40,40 @@
                 <fieldset>
                     <legend hidden>Entre em Contato</legend>
 
-                        <label for="nomeUsuario">Nome</label>
-                        <input type="text" name="nomeUsuario" required id="nomeUsuario" placeholder="Digite seu nome">
+                        <p>
+                            <label for="nomeUsuario">Nome</label>
+                            <input type="text" name="nomeUsuario" required id="nomeUsuario" placeholder="Digite seu nome">
+                        </p>
 
+                        <p>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+                        </p>
 
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+                        <p>
+                            <label for="idade">Idade</label>
+                            <input type="number" name="idade" id="idade" placeholder="Digite sua idade">
+                        </p>
 
+                        <p>
+                            <label for="Frontend">Front end</label>
+                            <input type="radio" name="curso" id="Frontend">
 
-                        <label for="idade">Idade</label>
-                        <input type="number" name="idade" id="idade" placeholder="Digite sua idade">
+                            <label for="Backend">Back end</label>
+                            <input type="radio" name="curso" id="Backend">
+                        </p>
 
+                        <p>
+                            <label for="cor">Cor</label>
+                            <input type="color" name="cor" id="cor">
+                        </p>
 
+                        <p>
+                            <label for="tamanho">Tamanho</label>
+                            <input type="range" name="tamanho" id="tamanho">
+                        </p>
 
-                        <label for="Frontend">Front end</label>
-                        <input type="radio" name="curso" id="Frontend">
-
-                        <label for="Backend">Back end</label>
-                        <input type="radio" name="curso" id="Backend">
-
-                        <label for="cor">Cor</label>
-                        <input type="color" name="cor" id="cor">
-
-                        <label for="tamanho">Tamanho</label>
-                        <input type="range" name="tamanho" id="tamanho">
-
-
-                        <div>
+                        <p>
                             <label for="horario">Horário do Curso</label>
                             <select name="horario" id="horario">
                                 <option>Escolha uma opção</option>
@@ -74,9 +81,11 @@
                                 <option value="tarde">Tarde</option>
                                 <option value="noite">Noite</option>
                             </select>
-                        </div>
+                        </p>
 
-                    <input type="submit" value="Enviar">
+                        <p>
+                            <input type="submit" value="Enviar">
+                        </p>
                 </fieldset>
             </form>
 
