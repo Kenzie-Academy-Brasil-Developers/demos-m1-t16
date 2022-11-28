@@ -1,0 +1,63 @@
+/* p {
+    background-color: green;
+}
+
+.primeiroParagrafo {
+    background-color: red;
+}
+
+.segundoParagrafo {
+    background-color: purple;
+}
+
+#terceiroParagrafo {
+    background-color: aquamarine;
+} */
+
+/* .secao {
+    background-color: red;
+    border: 5px solid black;
+    margin: 10px;
+}
+
+.quemSomos {
+    background-color: green;
+}
+
+.contato {
+    background-color: green;
+}
+
+.produtos {
+    background-color: purple;
+} */
+
+h1 {
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    text-decoration: line-through;
+    text-transform: capitalize;
+    font-size: 30px;
+    text-align: start;
+}
+
+p {
+    line-height: 50px;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    /* background-color: green; */
+    border: 4px solid black;
+    border-radius: 50%;
+    margin-bottom: 100px;
+}
+
+button {
+    background-color: #3c62aa;
+    margin: 40px;
+    padding: 40px 20px;
+}
