@@ -1,6 +1,6 @@
-/* p {
+p {
     background-color: green;
-}
+} 
 
 .primeiroParagrafo {
     background-color: red;
@@ -44,7 +44,7 @@ h1 {
 }
 
 p {
-    line-height: 50px;
+    /* line-height: 50px; */
 }
 
 div {
@@ -60,4 +60,17 @@ button {
     background-color: #3c62aa;
     margin: 40px;
     padding: 40px 20px;
+}
+
+ul {
+    text-align: end;
+    background-color: red;
+}
+
+li {
+    background-color: green;
+    margin: 10px;
+    display: inline;
+    padding: 10px 20px;
+    
 }
