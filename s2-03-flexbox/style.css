@@ -1,0 +1,63 @@
+/* <!--PT.1 REVISÃO DISPLAY BLOCK, INLINE E INLINE-BLOCK --> */
+
+section div {
+    /* ESTRUTRUTURA */
+    width: 150px;
+    height: 150px;
+    background-color: rgb(49, 235, 49);
+    border: 2px solid black;
+
+    /* CENTRALIZANDO DIVS */
+    margin: 0 auto;
+
+    /* CENTRALIZANDO COM LINE HEIGHT */
+    text-align: center;
+    line-height: 150px;
+
+    /* DISPLAY */
+    display: inline;
+
+    /* ESPAÇAMENTO INTERNO */
+    padding: 20px;
+
+    cursor: pointer;
+}
+
+section {
+    border: 3px solid red;
+
+    /* CENTRALIZANDO O CONTEÚDO */
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* ELEMENTO DE LINHA COM ALTURA E LARGURA ATRAVÉS DE PADDING */
+
+div a {
+    padding: 30px;
+    display: inline;
+    background-color: green;
+}
+
+/* PT.2 FLEXBOX */
+
+.secaoPai {
+    /* ESTRUTURA */
+
+    border: 2px solid red;
+    height: 700px;
+
+    /* REALOCANDO ELEMENTOS */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div {
+    /* ESTRUTURA */
+
+    width: 100px;
+    height: 100px;
+    background-color: greenyellow;
+    border: 2px dashed black
+}
