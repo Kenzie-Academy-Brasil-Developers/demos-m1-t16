@@ -2,22 +2,35 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background: linear-gradient(-180deg,#c850c0,#4158d0);
 }
 
 main {
-
+    min-height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
-
+    background-color: white;
+    min-width: 900px;
+    height: 520px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container .common {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 45%;
 }
 
 .container .left {
-
+    /* background-color: red; */
 }
 
 .container .left figure {
@@ -25,11 +38,11 @@ main {
 }
 
 .container .left figure img {
-    
+    width: 240px;
 }
 
 .container .right {
-
+    /* background-color: green; */
 }
 
 .container .right form{
@@ -37,7 +50,9 @@ main {
 }
 
 .container .right form h2 {
-    
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 32px;
 }
 
 .container .right form .inputContainer {
@@ -49,23 +64,54 @@ main {
 }
 
 .container .right form .inputContainer img{
-    
+    width: 15px;
+    /* margin-right: 5px;
+    margin-top: 15px; */
 }
 
 .container .right form .inputContainer input{
-    
+    height: 30px;
+    border-radius: 17px;
+    outline: none;
+    margin-bottom: 10px;
+    background-color: rgb(236, 236, 236);
+    border: none;
+}
+
+.container .right form .inputContainer input::placeholder{
+    padding: 5px 10px;
+}
+
+.container .right form .inputContainer input[type=submit]{
+    background-color: green;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+
+.container .right form .inputContainer input[type=submit]:hover{
+    border: 2px solid black;
+    background-color: white;
+    transition: 2s;
+    cursor: pointer;
+    color: black;
 }
 
 .container .right .first{
-    
+    font-size: 11px;
+    text-align: center;
 }
 
 .container .right .first a {
     
 }
 
-.container .right .second {
-    
+.container .right .second{
+    font-size: 11px;
+    text-align: center;
 }
 
 .container .right .second a {
