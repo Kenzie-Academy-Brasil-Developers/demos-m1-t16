@@ -1,0 +1,11 @@
+h1, ol{
+    text-align: center;
+}
+
+h1{
+    background: green;
+}
+
+ol{
+    background: yellow;
+}
