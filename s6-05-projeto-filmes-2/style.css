@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.espaco-vazio{
+    width: 150px;
+}
+
+header button{
+    color:black;
+    font-weight: bold;
+    background: none;
+    border-radius: 8px;
+    transition: 2s;
+    width: 150px;
+
+}
+header button:hover{
+    font-size: 18px;
+    background: rgb(211, 211, 211);
+}
+
+.titulo{
+    margin: 0 auto;
+    width: 28%;
+    background: rgb(77, 166, 255); 
+    border-radius: 20px;
+    padding: 10px 20px ;
+    text-align: center;
+}
+
+
+.card{
+    width: 50%;
+    height: 250px;
+    background: rgba(115,115,115,0.5);
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+}
+
+img{
+    max-height: 100%;
+}
+
+section{
+    width: 100%;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.titulo-filme{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+h4{
+    font-size: 18px;
+}
+
+h4,h3,p{
+    margin: 0;
+} 
+
+.bold{
+    font-weight: bold;
+}
+
+.informacoes{
+    display: flex;
+    justify-content: space-around;
+}
+
+.categorias{
+    display: flex;
+}
+
+.categoria{
+    background: rgba(80,80,80,0.7);
+    margin: 5px;
+    padding: 4px;
+    border-radius: 5px;
+    border: 0;
+}
+
+
+.darkMode{
+    background: black;
+}
+
+.darkMode header button{
+    color: white;
+    border-color: white;
+}
+
+
+
+.pai{
+    width: 1000px;
+    background: rgb(225, 225, 225);
+    margin: 10px auto;
+}
+
+.filho{
+    width: 50px;
+    height: 50px;
+    background: green;
+    transition: 5s;
+    margin-left: 0px;
+}
+
+.right-align{
+    margin-left: 950px; 
+}
