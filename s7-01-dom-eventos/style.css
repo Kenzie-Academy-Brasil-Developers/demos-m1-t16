@@ -1,0 +1,12 @@
+#parag{
+    opacity: 1;
+    transition: 2s;
+}
+
+#btn{
+    background: red;
+}
+div{
+    background: green;
+    padding:5px;
+}
