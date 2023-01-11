@@ -1,0 +1,45 @@
+.bkred{
+    background: red;
+}
+
+.bkblue{
+    background: blue;
+}
+
+.bkgreen{
+    background: green;
+}
+
+.bkyellow{
+    background: yellow;
+}
+
+div{
+    margin-top: 20px;
+}
+
+a{
+    padding: 20px;
+}
+
+section{
+    background: grey;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+p{
+    padding: 5px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 4px;   
+    text-align: center; 
+}
+
+#referencia{
+    border: 1px solid black;
+    border-radius: 6px;
+    background: rgba(0,0,0,0.5);
+    padding:8px;
+}
+
+
